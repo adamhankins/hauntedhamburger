@@ -1,0 +1,73 @@
+body {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-weight: bold;
+    background-color: black;    
+}
+
+#title {
+    font-family: Impact, Arial;
+    font-size:300%;
+    text-align: center;
+    color:red;
+}
+
+.message,
+#gameWindow
+{   padding: 1%; 
+    font-family: Arial, Times;
+    border:solid; 
+    border-width: 5px;
+    background-color:white;
+    border-color:red;
+}
+
+button,
+#submit
+{
+    font-size: 150%;
+    color: white;
+    border-width: 3px;
+    background-color : green;
+}
+
+#submit
+{
+    font-size: 100%;
+}
+
+#answerCommand 
+{
+    border: solid;
+    border-width: 3px;
+    margin-right: 50%;
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: lightblue;    
+}
+
+#meatMonster 
+{
+    border: solid;
+    border-width: 3px;
+    margin-right: 50%;
+    margin-bottom: 1%;
+    padding: 1%;
+    color: white;
+    background-color: red;    
+}
+
+#inventory 
+{
+    border: solid;
+    border-width: 3px;
+    margin-right: 50%;
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: lightyellow;    
+}
+
+#moveButtons {
+    float: right;
+}
+
